@@ -1,0 +1,15 @@
+//GET http://localhost:3000/users
+
+
+
+//POST http://localhost:3000/users/login Content-Type: application/json
+
+//{
+//"username": "s", "password": "d"
+//}*/
+POST /users/login HTTP/1.1
+Host: localhost:3000
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 30
+
+username=s&password=d

@@ -1,0 +1,16 @@
+<form class="form-signin" name="loginForm" role="login" ng-submit="submit(form)"> 
+    <div fxLayout="column" fxLayoutAlign="center center">
+        <div class="form-group">
+            <label for="exampleInputUsername1">Username address</label>
+            <input type="Username" ng-model= "form.username" class="form-control" id="exampleInputUsername1" aria-describedby="UsernameHelp" placeholder="Enter Username" autofocus="true" ng-required="true">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" ng-model= "form.password" id="exampleInputPassword1" placeholder="Password" autofocus="true" ng-required="true">
+        </div>
+        <div class="form-group">
+            <button type="Login" routerLink="/search-screen" class="btn btn-primary">Login</button>
+        </div>
+    </div>
+</form>
+  
